@@ -1,0 +1,19 @@
+%h1 Listing pinwheels
+
+%table
+  %tr
+    %th Name
+    %th
+    %th
+    %th
+
+  - @pinwheels.each do |pinwheel|
+    %tr
+      %td= pinwheel.name
+      %td= link_to 'Show', pinwheel
+      %td= link_to 'Edit', edit_pinwheel_path(pinwheel)
+      %td= link_to 'Destroy', pinwheel, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Pinwheel', new_pinwheel_path

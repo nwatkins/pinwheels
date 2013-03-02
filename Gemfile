@@ -21,6 +21,11 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'haml'
+gem 'haml-rails'
+gem 'compass-rails'
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'compass_twitter_bootstrap', :git => 'git://github.com/vwall/compass-twitter-bootstrap.git'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -36,3 +41,5 @@ gem 'jbuilder'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'squeel'

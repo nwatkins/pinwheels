@@ -1,0 +1,406 @@
+---
+acrobatics:
+    unid: "1"
+    name: Acrobatics
+    skills:
+    - escape
+    - gymnastics
+    - instant_stand
+    - juggling
+    - stability
+aggression:
+    unid: "2"
+    name: Aggression
+    skills:
+    - awe
+    - dominate
+    - force
+    - intimidation
+    - rally
+animal_handler:
+    unid: "3"
+    name: Animal Handler
+    skills:
+    - animal_care
+    - animal_empathy
+    - animal_mimicry
+    - animal_training
+    - riding_amp_driving
+aristocrat:
+    unid: "4"
+    name: Aristocrat
+    skills:
+    - bureaucracy
+    - customs
+    - etiquette
+    - history
+    - modern_languages
+armed_combat:
+    unid: "5"
+    name: Armed Combat
+    skills:
+    - counterstrike
+    - fast_draw
+    - force
+    - knockdown
+    - weapons
+assassin:
+    unid: "6"
+    name: Assassin
+    skills:
+    - disguise
+    - light_step
+    - stealth
+    - toxicology
+    - trailing
+astronomer:
+    unid: "7"
+    name: Astronomer
+    skills:
+    - astronomy
+    - mathematics
+    - omen_reading
+    - optics
+    - orienteering
+athlete:
+    unid: "8"
+    name: Athlete
+    skills:
+    - gymnastics
+    - jumping
+    - swimming
+    - throwing
+    - wrestling
+careful_footing:
+    unid: "9"
+    name: Careful Footing
+    skills:
+    - climbing
+    - dancing
+    - flank
+    - light_step
+    - stability
+craftsman:
+    unid: "10"
+    name: Craftsman
+    skills:
+    - carpentry
+    - chandler
+    - jeweler
+    - leather_working
+    - textiles_amp_sewing
+deception:
+    unid: "11"
+    name: Deception
+    skills:
+    - acting
+    - deceit
+    - disguise
+    - prestidigitation
+    - ventriloquy
+detective:
+    unid: "12"
+    name: Detective
+    skills:
+    - detect_lie
+    - information_gathering
+    - investigation
+    - read_lips
+    - trailing
+engineering:
+    unid: "13"
+    name: Engineering
+    skills:
+    - architecture
+    - carpentry
+    - masonry
+    - mechanics
+    - smithing
+faith:
+    unid: "14"
+    name: Faith
+    skills:
+    - exorcise
+    - meditation
+    - philosophy
+    - prayer
+    - theology
+farming:
+    unid: "15"
+    name: Farming
+    skills:
+    - animal_care
+    - cultivation
+    - leather_working
+    - local_history_amp_folklore
+    - weather_sense
+fine_arts:
+    unid: "16"
+    name: Fine Arts
+    skills:
+    - calligraphy
+    - drawing_amp_painting
+    - glassworking
+    - sculpting_amp_pottery
+    - textiles_amp_sewing
+fingerwork:
+    unid: "17"
+    name: Fingerwork
+    skills:
+    - escape
+    - lock_picking
+    - pick_pockets
+    - prestidigitation
+    - trapping
+healer:
+    unid: "18"
+    name: Healer
+    skills:
+    - biology
+    - healing
+    - medicine
+    - nursing
+    - toxicology
+historian:
+    unid: "19"
+    name: Historian
+    skills:
+    - ancient_languages
+    - anthropology
+    - battlefield_tactics
+    - history
+    - research
+hunter:
+    unid: "20"
+    name: Hunter
+    skills:
+    - animal_mimicry
+    - animal_rending
+    - bowyer_fletcher
+    - tracking
+    - trapping
+invention:
+    unid: "21"
+    name: Invention
+    skills:
+    - chemistry
+    - lock_picking
+    - mechanics
+    - research
+    - siege_weapons
+linguistics:
+    unid: "22"
+    name: Linguistics
+    skills:
+    - ancient_languages
+    - decipher
+    - modern_languages
+    - poetry_amp_storytelling
+    - read_lips
+magic_sense:
+    unid: "23"
+    name: Magic Sense
+    skills:
+    - detect_caster
+    - detect_magic
+    - detect_runes
+    - disable_spell
+    - spell_recognition
+magiworks:
+    unid: "24"
+    name: Magiworks
+    skills:
+    - detect_magic
+    - magical_object_creation
+    - magical_potion_creation
+    - magical_scroll_creation
+    - scrollcasting
+mentalism:
+    unid: "25"
+    name: Mentalism
+    skills:
+    - concentration
+    - hypnotism
+    - meditation
+    - precognition
+    - psionics
+merchant:
+    unid: "26"
+    name: Merchant
+    skills:
+    - appraising
+    - gambling
+    - haggling
+    - local_history_amp_folklore
+    - riding_amp_driving
+military:
+    unid: "27"
+    name: Military
+    skills:
+    - battlefield_tactics
+    - command
+    - dominate
+    - siege_weapons
+    - tactics_of_magic
+mountaineer:
+    unid: "28"
+    name: Mountaineer
+    skills:
+    - climbing
+    - geology
+    - jumping
+    - rope_use
+    - winter_travel
+naturalist:
+    unid: "29"
+    name: Naturalist
+    skills:
+    - botany
+    - cooking_amp_brewing
+    - cultivation
+    - medicine
+    - zoology
+performing_arts:
+    unid: "30"
+    name: Performing Arts
+    skills:
+    - acting
+    - dancing
+    - juggling
+    - music
+    - specialty_acts
+politics:
+    unid: "31"
+    name: Politics
+    skills:
+    - bureaucracy
+    - command
+    - law
+    - negotiation
+    - theology
+primitive:
+    unid: "32"
+    name: Primitive
+    skills:
+    - animal_empathy
+    - animal_rending
+    - body_art
+    - primitive_craftsman
+    - survival
+prophet:
+    unid: "33"
+    name: Prophet
+    skills:
+    - detect_curses
+    - detect_runes
+    - detect_spirits
+    - omen_reading
+    - precognition
+quick_wits:
+    unid: "34"
+    name: Quick Wits
+    skills:
+    - bait
+    - disarm
+    - feint
+    - flank
+    - light_sleep
+ranger:
+    unid: "35"
+    name: Ranger
+    skills:
+    - camouflage
+    - cartography
+    - orienteering
+    - survival
+    - tracking
+reaction:
+    unid: "36"
+    name: Reaction
+    skills:
+    - block
+    - counterstrike
+    - disarm
+    - dodge
+    - roll_with_it
+sailor:
+    unid: "37"
+    name: Sailor
+    skills:
+    - cartography
+    - fishing
+    - rope_use
+    - seamanship
+    - weather_sense
+scientist:
+    unid: "38"
+    name: Scientist
+    skills:
+    - biology
+    - chemistry
+    - cooking_amp_brewing
+    - magical_potion_creation
+    - mathematics
+smooth_talking:
+    unid: "39"
+    name: Smooth Talking
+    skills:
+    - deceit
+    - negotiation
+    - oratory
+    - rally
+    - romance
+social_sciences:
+    unid: "40"
+    name: Social Sciences
+    skills:
+    - anthropology
+    - customs
+    - law
+    - philosophy
+    - teaching
+stonework:
+    unid: "41"
+    name: Stonework
+    skills:
+    - geology
+    - jeweler
+    - masonry
+    - mining
+    - sculpting_amp_pottery
+streetwise:
+    unid: "42"
+    name: Streetwise
+    skills:
+    - drinking
+    - gambling
+    - information_gathering
+    - intimidation
+    - street_code
+unarmed_combat:
+    unid: "43"
+    name: Unarmed Combat
+    skills:
+    - feint
+    - instant_stand
+    - knockdown
+    - unarmed_strike
+    - wrestling
+wizardry:
+    unid: "44"
+    name: Wizardry
+    skills:
+    - concentration
+    - counterspell
+    - spell_recognition
+    - tactics_of_magic
+    - theory_of_magic
+writer:
+    unid: "45"
+    name: Writer
+    skills:
+    - book_making
+    - calligraphy
+    - oratory
+    - poetry_amp_storytelling
+    - scrollcasting

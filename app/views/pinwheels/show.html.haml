@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @pinwheel.name
+
+= link_to 'Edit', edit_pinwheel_path(@pinwheel)
+\|
+= link_to 'Back', pinwheels_path

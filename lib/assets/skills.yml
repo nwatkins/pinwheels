@@ -1,0 +1,794 @@
+---
+acting:
+    unid: "1"
+    name: Acting
+    pinwheels:
+    - performing_arts
+    - deception
+ancient_languages:
+    unid: "2"
+    name: Ancient Languages
+    pinwheels:
+    - historian
+    - linguistics
+animal_care:
+    unid: "3"
+    name: Animal Care
+    pinwheels:
+    - farming
+    - animal_handler
+animal_empathy:
+    unid: "4"
+    name: Animal Empathy
+    pinwheels:
+    - primitive
+    - animal_handler
+animal_mimicry:
+    unid: "5"
+    name: Animal Mimicry
+    pinwheels:
+    - animal_handler
+    - hunter
+animal_rending:
+    unid: "6"
+    name: Animal Rending
+    pinwheels:
+    - primitive
+    - hunter
+animal_training:
+    unid: "7"
+    name: Animal Training
+    pinwheels:
+    - animal_handler
+anthropology:
+    unid: "8"
+    name: Anthropology
+    pinwheels:
+    - historian
+    - social_sciences
+appraising:
+    unid: "9"
+    name: Appraising
+    pinwheels:
+    - merchant
+architecture:
+    unid: "10"
+    name: Architecture
+    pinwheels:
+    - engineering
+astronomy:
+    unid: "11"
+    name: Astronomy
+    pinwheels:
+    - astronomer
+awe:
+    unid: "12"
+    name: Awe
+    pinwheels:
+    - aggression
+bait:
+    unid: "13"
+    name: Bait
+    pinwheels:
+    - quick_wits
+battlefield_tactics:
+    unid: "14"
+    name: Battlefield Tactics
+    pinwheels:
+    - historian
+    - military
+biology:
+    unid: "15"
+    name: Biology
+    pinwheels:
+    - healer
+    - scientist
+block:
+    unid: "16"
+    name: Block
+    pinwheels:
+    - reaction
+body_art:
+    unid: "17"
+    name: Body Art
+    pinwheels:
+    - primitive
+book_making:
+    unid: "18"
+    name: Book Making
+    pinwheels:
+    - writer
+botany:
+    unid: "19"
+    name: Botany
+    pinwheels:
+    - naturalist
+bowyer_fletcher:
+    unid: "20"
+    name: Bowyer - Fletcher
+    pinwheels:
+    - hunter
+bureaucracy:
+    unid: "21"
+    name: Bureaucracy
+    pinwheels:
+    - aristocrat
+    - politics
+calligraphy:
+    unid: "22"
+    name: Calligraphy
+    pinwheels:
+    - writer
+    - fine_arts
+camouflage:
+    unid: "23"
+    name: Camouflage
+    pinwheels:
+    - ranger
+carpentry:
+    unid: "24"
+    name: Carpentry
+    pinwheels:
+    - craftsman
+    - engineering
+cartography:
+    unid: "25"
+    name: Cartography
+    pinwheels:
+    - sailor
+    - ranger
+chandler:
+    unid: "26"
+    name: Chandler
+    pinwheels:
+    - craftsman
+chemistry:
+    unid: "27"
+    name: Chemistry
+    pinwheels:
+    - scientist
+    - invention
+climbing:
+    unid: "28"
+    name: Climbing
+    pinwheels:
+    - mountaineer
+    - careful_footing
+command:
+    unid: "29"
+    name: Command
+    pinwheels:
+    - politics
+    - military
+concentration:
+    unid: "30"
+    name: Concentration
+    pinwheels:
+    - wizardry
+    - mentalism
+cooking_amp_brewing:
+    unid: "31"
+    name: 'Cooking & Brewing'
+    pinwheels:
+    - naturalist
+    - scientist
+counterspell:
+    unid: "32"
+    name: Counterspell
+    pinwheels:
+    - wizardry
+counterstrike:
+    unid: "33"
+    name: Counterstrike
+    pinwheels:
+    - reaction
+    - armed_combat
+cultivation:
+    unid: "34"
+    name: Cultivation
+    pinwheels:
+    - naturalist
+    - farming
+customs:
+    unid: "35"
+    name: Customs
+    pinwheels:
+    - aristocrat
+    - social_sciences
+dancing:
+    unid: "36"
+    name: Dancing
+    pinwheels:
+    - performing_arts
+    - careful_footing
+deceit:
+    unid: "37"
+    name: Deceit
+    pinwheels:
+    - deception
+    - smooth_talking
+decipher:
+    unid: "38"
+    name: Decipher
+    pinwheels:
+    - linguistics
+detect_caster:
+    unid: "39"
+    name: Detect Caster
+    pinwheels:
+    - magic_sense
+detect_curses:
+    unid: "40"
+    name: Detect Curses
+    pinwheels:
+    - prophet
+detect_lie:
+    unid: "41"
+    name: Detect Lie
+    pinwheels:
+    - detective
+detect_magic:
+    unid: "42"
+    name: Detect Magic
+    pinwheels:
+    - magic_sense
+    - magiworks
+detect_runes:
+    unid: "43"
+    name: Detect Runes
+    pinwheels:
+    - magic_sense
+    - prophet
+detect_spirits:
+    unid: "44"
+    name: Detect Spirits
+    pinwheels:
+    - prophet
+disable_spell:
+    unid: "45"
+    name: Disable Spell
+    pinwheels:
+    - magic_sense
+disarm:
+    unid: "46"
+    name: Disarm
+    pinwheels:
+    - reaction
+    - quick_wits
+disguise:
+    unid: "47"
+    name: Disguise
+    pinwheels:
+    - deception
+    - assassin
+dodge:
+    unid: "48"
+    name: Dodge
+    pinwheels:
+    - reaction
+dominate:
+    unid: "49"
+    name: Dominate
+    pinwheels:
+    - military
+    - aggression
+drawing_amp_painting:
+    unid: "50"
+    name: 'Drawing & Painting'
+    pinwheels:
+    - fine_arts
+drinking:
+    unid: "51"
+    name: Drinking
+    pinwheels:
+    - streetwise
+escape:
+    unid: "52"
+    name: Escape
+    pinwheels:
+    - fingerwork
+    - acrobatics
+etiquette:
+    unid: "53"
+    name: Etiquette
+    pinwheels:
+    - aristocrat
+exorcise:
+    unid: "54"
+    name: Exorcise
+    pinwheels:
+    - faith
+fast_draw:
+    unid: "55"
+    name: Fast Draw
+    pinwheels:
+    - armed_combat
+feint:
+    unid: "56"
+    name: Feint
+    pinwheels:
+    - unarmed_combat
+    - quick_wits
+fishing:
+    unid: "57"
+    name: Fishing
+    pinwheels:
+    - sailor
+flank:
+    unid: "58"
+    name: Flank
+    pinwheels:
+    - quick_wits
+    - careful_footing
+force:
+    unid: "59"
+    name: Force
+    pinwheels:
+    - armed_combat
+    - aggression
+gambling:
+    unid: "60"
+    name: Gambling
+    pinwheels:
+    - streetwise
+    - merchant
+geology:
+    unid: "61"
+    name: Geology
+    pinwheels:
+    - mountaineer
+    - stonework
+glassworking:
+    unid: "62"
+    name: Glassworking
+    pinwheels:
+    - fine_arts
+gymnastics:
+    unid: "63"
+    name: Gymnastics
+    pinwheels:
+    - acrobatics
+    - athlete
+haggling:
+    unid: "64"
+    name: Haggling
+    pinwheels:
+    - merchant
+healing:
+    unid: "65"
+    name: Healing
+    pinwheels:
+    - healer
+history:
+    unid: "66"
+    name: History
+    pinwheels:
+    - aristocrat
+    - historian
+hypnotism:
+    unid: "67"
+    name: Hypnotism
+    pinwheels:
+    - mentalism
+information_gathering:
+    unid: "69"
+    name: Information Gathering
+    pinwheels:
+    - streetwise
+    - detective
+instant_stand:
+    unid: "70"
+    name: Instant Stand
+    pinwheels:
+    - unarmed_combat
+    - acrobatics
+intimidation:
+    unid: "71"
+    name: Intimidation
+    pinwheels:
+    - streetwise
+    - aggression
+investigation:
+    unid: "72"
+    name: Investigation
+    pinwheels:
+    - detective
+jeweler:
+    unid: "73"
+    name: Jeweler
+    pinwheels:
+    - craftsman
+    - stonework
+juggling:
+    unid: "74"
+    name: Juggling
+    pinwheels:
+    - performing_arts
+    - acrobatics
+jumping:
+    unid: "75"
+    name: Jumping
+    pinwheels:
+    - athlete
+    - mountaineer
+knockdown:
+    unid: "76"
+    name: Knockdown
+    pinwheels:
+    - unarmed_combat
+    - armed_combat
+law:
+    unid: "77"
+    name: Law
+    pinwheels:
+    - politics
+    - social_sciences
+leather_working:
+    unid: "78"
+    name: Leather Working
+    pinwheels:
+    - craftsman
+    - farming
+light_sleep:
+    unid: "79"
+    name: Light Sleep
+    pinwheels:
+    - quick_wits
+light_step:
+    unid: "80"
+    name: Light Step
+    pinwheels:
+    - assassin
+    - careful_footing
+local_history_amp_folklore:
+    unid: "81"
+    name: 'Local History & Folklore'
+    pinwheels:
+    - merchant
+    - farming
+lock_picking:
+    unid: "82"
+    name: Lock Picking
+    pinwheels:
+    - fingerwork
+    - invention
+magical_object_creation:
+    unid: "83"
+    name: Magical Object Creation
+    pinwheels:
+    - magiworks
+magical_potion_creation:
+    unid: "84"
+    name: Magical Potion Creation
+    pinwheels:
+    - magiworks
+    - scientist
+magical_scroll_creation:
+    unid: "85"
+    name: Magical Scroll Creation
+    pinwheels:
+    - magiworks
+masonry:
+    unid: "86"
+    name: Masonry
+    pinwheels:
+    - engineering
+    - stonework
+mathematics:
+    unid: "87"
+    name: Mathematics
+    pinwheels:
+    - scientist
+    - astronomer
+mechanics:
+    unid: "88"
+    name: Mechanics
+    pinwheels:
+    - engineering
+    - invention
+medicine:
+    unid: "89"
+    name: Medicine
+    pinwheels:
+    - naturalist
+    - healer
+meditation:
+    unid: "90"
+    name: Meditation
+    pinwheels:
+    - mentalism
+    - faith
+mining:
+    unid: "91"
+    name: Mining
+    pinwheels:
+    - stonework
+modern_languages:
+    unid: "92"
+    name: Modern Languages
+    pinwheels:
+    - aristocrat
+    - linguistics
+music:
+    unid: "93"
+    name: Music
+    pinwheels:
+    - performing_arts
+negotiation:
+    unid: "94"
+    name: Negotiation
+    pinwheels:
+    - politics
+    - smooth_talking
+nursing:
+    unid: "95"
+    name: Nursing
+    pinwheels:
+    - healer
+omen_reading:
+    unid: "96"
+    name: Omen Reading
+    pinwheels:
+    - astronomer
+    - prophet
+optics:
+    unid: "97"
+    name: Optics
+    pinwheels:
+    - astronomer
+oratory:
+    unid: "98"
+    name: Oratory
+    pinwheels:
+    - writer
+    - smooth_talking
+orienteering:
+    unid: "99"
+    name: Orienteering
+    pinwheels:
+    - ranger
+    - astronomer
+philosophy:
+    unid: "100"
+    name: Philosophy
+    pinwheels:
+    - faith
+    - social_sciences
+pick_pockets:
+    unid: "101"
+    name: Pick Pockets
+    pinwheels:
+    - fingerwork
+poetry_amp_storytelling:
+    unid: "102"
+    name: 'Poetry & Storytelling'
+    pinwheels:
+    - linguistics
+    - writer
+prayer:
+    unid: "104"
+    name: Prayer
+    pinwheels:
+    - faith
+precognition:
+    unid: "105"
+    name: Precognition
+    pinwheels:
+    - mentalism
+    - prophet
+prestidigitation:
+    unid: "106"
+    name: Prestidigitation
+    pinwheels:
+    - fingerwork
+    - deception
+primitive_craftsman:
+    unid: "107"
+    name: Primitive Craftsman
+    pinwheels:
+    - primitive
+psionics:
+    unid: "108"
+    name: Psionics
+    pinwheels:
+    - mentalism
+rally:
+    unid: "109"
+    name: Rally
+    pinwheels:
+    - smooth_talking
+    - aggression
+read_lips:
+    unid: "110"
+    name: Read Lips
+    pinwheels:
+    - linguistics
+    - detective
+research:
+    unid: "111"
+    name: Research
+    pinwheels:
+    - historian
+    - invention
+riding_amp_driving:
+    unid: "112"
+    name: 'Riding & Driving'
+    pinwheels:
+    - animal_handler
+    - merchant
+roll_with_it:
+    unid: "113"
+    name: Roll With It
+    pinwheels:
+    - reaction
+romance:
+    unid: "114"
+    name: Romance
+    pinwheels:
+    - smooth_talking
+rope_use:
+    unid: "115"
+    name: Rope Use
+    pinwheels:
+    - sailor
+    - mountaineer
+scrollcasting:
+    unid: "116"
+    name: Scrollcasting
+    pinwheels:
+    - magiworks
+    - writer
+sculpting_amp_pottery:
+    unid: "117"
+    name: 'Sculpting & Pottery'
+    pinwheels:
+    - stonework
+    - fine_arts
+seamanship:
+    unid: "118"
+    name: Seamanship
+    pinwheels:
+    - sailor
+siege_weapons:
+    unid: "119"
+    name: Siege Weapons
+    pinwheels:
+    - military
+    - invention
+smithing:
+    unid: "120"
+    name: Smithing
+    pinwheels:
+    - engineering
+specialty_acts:
+    unid: "121"
+    name: Specialty Acts
+    pinwheels:
+    - performing_arts
+spell_recognition:
+    unid: "122"
+    name: Spell Recognition
+    pinwheels:
+    - magic_sense
+    - wizardry
+stability:
+    unid: "123"
+    name: Stability
+    pinwheels:
+    - careful_footing
+    - acrobatics
+stealth:
+    unid: "124"
+    name: Stealth
+    pinwheels:
+    - assassin
+street_code:
+    unid: "125"
+    name: Street Code
+    pinwheels:
+    - streetwise
+survival:
+    unid: "126"
+    name: Survival
+    pinwheels:
+    - ranger
+    - primitive
+swimming:
+    unid: "127"
+    name: Swimming
+    pinwheels:
+    - athlete
+tactics_of_magic:
+    unid: "128"
+    name: Tactics of Magic
+    pinwheels:
+    - wizardry
+    - military
+teaching:
+    unid: "129"
+    name: Teaching
+    pinwheels:
+    - social_sciences
+textiles_amp_sewing:
+    unid: "130"
+    name: 'Textiles & Sewing'
+    pinwheels:
+    - fine_arts
+    - craftsman
+theology:
+    unid: "131"
+    name: Theology
+    pinwheels:
+    - politics
+    - faith
+theory_of_magic:
+    unid: "132"
+    name: Theory of Magic
+    pinwheels:
+    - wizardry
+throwing:
+    unid: "133"
+    name: Throwing
+    pinwheels:
+    - athlete
+toxicology:
+    unid: "134"
+    name: Toxicology
+    pinwheels:
+    - healer
+    - assassin
+tracking:
+    unid: "135"
+    name: Tracking
+    pinwheels:
+    - ranger
+    - hunter
+trailing:
+    unid: "136"
+    name: Trailing
+    pinwheels:
+    - detective
+    - assassin
+trapping:
+    unid: "137"
+    name: Trapping
+    pinwheels:
+    - fingerwork
+    - hunter
+unarmed_strike:
+    unid: "138"
+    name: Unarmed Strike
+    pinwheels:
+    - unarmed_combat
+ventriloquy:
+    unid: "139"
+    name: Ventriloquy
+    pinwheels:
+    - deception
+weapons:
+    unid: "140"
+    name: Weapons
+    pinwheels:
+    - armed_combat
+weather_sense:
+    unid: "141"
+    name: Weather Sense
+    pinwheels:
+    - sailor
+    - farming
+winter_travel:
+    unid: "142"
+    name: Winter Travel
+    pinwheels:
+    - mountaineer
+wrestling:
+    unid: "143"
+    name: Wrestling
+    pinwheels:
+    - unarmed_combat
+    - athlete
+zoology:
+    unid: "144"
+    name: Zoology
+    pinwheels:
+    - naturalist
