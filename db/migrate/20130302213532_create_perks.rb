@@ -3,7 +3,7 @@ class CreatePerks < ActiveRecord::Migration
         create_table :perks do |t|
             t.integer   :pinwheel_id
             t.string    :name
-            t.integer   :limit
+            t.text      :description
             t.boolean   :advanced, :default => false, :null => false
             t.timestamps
         end

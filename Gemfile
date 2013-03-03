@@ -43,3 +43,4 @@ gem 'jbuilder'
 # gem 'debugger'
 
 gem 'squeel'
+gem 'nokogiri'
