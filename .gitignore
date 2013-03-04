@@ -15,3 +15,6 @@
 /tmp
 
 /vendor/bundle
+.DS_Store
+public/assets
+public/assets/

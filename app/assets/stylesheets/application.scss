@@ -1,0 +1,118 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+@import "compass_twitter_bootstrap_awesome";
+
+$red:           #712627;
+$redDark:       #3C0000;
+$redDarker:     #350201;
+$redLightest:   #B09B9B;
+$gray:          #9A9898;
+$grayDark:      #454545;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    background: $redDarker url('/assets/background.png') left bottom fixed no-repeat;
+    overflow-y: hidden;
+
+    #main {
+        background-color: transparentize(#000, 0.75);
+        border-left: 1px solid $redLightest;
+        border-right: 1px solid $redLightest;
+
+        #pinwheels {
+            width: 100%;
+            height: 100%;
+            background: url('/assets/logo.gif') left top no-repeat;
+
+            a {
+                font-size: 11px;
+                font-family: Helvetica, sans-serif;
+                color: #666;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #911C27;
+            }
+
+            a.depth0 {
+                font-size: 1.0em;
+                color: #999;
+            }
+
+            a.depth1 {
+                font-size: 0.9em;
+                color: #BBB;
+            }
+
+            a.depth2 {
+                font-size: 0.8em;
+                color: #CCC;
+            }
+
+            a.pinwheel_link {
+                color: $grayDark;
+                text-decoration: none;
+            }
+
+            a.pinwheel_link:hover {
+                color: #999;
+                text-decoration: underline;
+            }
+
+            .node a {
+                color: $grayDark;
+                text-shadow: -1px -1px 0 #CACACA, 1px 1px 0 #CACACA, 1px -1px 0 #CACACA, -1px 1px 0 #CACACA;
+                font-size: 15px;
+                white-space: nowrap;
+                -moz-user-select: none;
+            }
+
+            .skill {
+                position: absolute;
+                margin-top: -7px;
+                padding: 0 5px;
+
+                a {
+                    color: $grayDark;
+                    text-shadow: 0px 0px 2px white;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}
+
+#instructions {
+    position: absolute;
+    top: 67px;
+    left: 17px;
+    color: #666;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.7em;
+}
+
+#shortest_paths {
+    position: absolute;
+    left: 13px;
+    bottom: 20px;
+}
+
+#shortest_paths p {
+    margin: 0;
+    font-size: 0.9em;
+}
