@@ -33,7 +33,7 @@ skills_data = YAML::load(File.open(skills_file))
 skills_data.each do |key, value|
     # Fetch other skill data form API
     url = "http://www.pinwheels.org/pinwheels/scripts/getSkillInfo.php?unid=#{value['unid']}"
-    puts "Getting data for skill ##{value['unid']} from #{url}."
+    puts "Fetching data for skill ##{value['unid']}."
     data = JSON.parse open(url).read
 
     skill = Skill.create do |s|
@@ -52,7 +52,7 @@ end
 # For each pinwheel, fetch and parse descriptions and such from API
 Pinwheel.all.each do |pinwheel|
     url = "http://www.pinwheels.org/pinwheels/scripts/getPinwheelInfo.php?unid=#{pinwheel.id}"
-    puts "Getting data for pinwheel ##{pinwheel.id} from #{url}."
+    puts "Fetching data for pinwheel ##{pinwheel.id}."
     data = JSON.parse open(url).read
     skills = data['skills']
     perk_html = Nokogiri::HTML(data['perks'])
