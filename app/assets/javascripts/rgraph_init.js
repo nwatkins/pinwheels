@@ -1,10 +1,3 @@
-// Makes an underscored, lowercase form from the string
-window.underscore = function(str) {
-    var clean = str.replace(/[^a-zA-Z0-9\/_|+ -]/g, "");
-    clean = clean.replace(/[^a-zA-Z0-9]/g, "_");
-    return clean.toLowerCase();
-}
-
 // Returns the window's hash value, stripping out the pound sign
 window.getAnchor = function() {
     return window.location.hash.replace('#', '');
@@ -22,9 +15,14 @@ $(function() {
         rgraph.refresh();
     });
 
+     // Makes an underscored, lowercase form from the string
+    var underscore = function(str) {
+        var clean = str.replace(/[^a-zA-Z0-9\/_|+ -]/g, "");
+        clean = clean.replace(/[^a-zA-Z0-9]/g, "_");
+        return clean.toLowerCase();
+    }
 
-    // Recursively builds adjacency list from matching pinwheels/skills
-    // in pinwheel and skill data.
+    // Recursively builds adjacency list from matching pinwheels/skills in pinwheel and skill data.
     // Returns root node
     var pinwheelsUsed = [],
         iterations = 0,
@@ -72,7 +70,7 @@ $(function() {
                 }
             }
             
-            //debug.log("child pinwhees: "+childPinwheels.join(", "));
+            // console.log("child pinwhees: "+childPinwheels.join(", "));
             for (var i = 0; i < childPinwheels.length; ++i) {
                 var childPinwheel = childPinwheels[i];
                 
@@ -84,12 +82,12 @@ $(function() {
                         children: []
                     }
                 } else {
-                    //debug.log("entering child pinwheel: "+childPinwheel);
+                    // console.log("entering child pinwheel: "+childPinwheel);
                     child = buildTree(childPinwheel, depth + 1);
                 }
-                if (child)
+                if (child) {
                     node.children.push(child);
-                else {
+                } else {
                     return false;
                 }
             }
@@ -170,7 +168,7 @@ $(function() {
         Events: {
             enable: true,
             onClick: function(node) {
-                if (node) {
+                if (node && window.rgraph.currentNode != node) {
                     if (node.id.indexOf("dummy") === -1) {
                         window.rgraph.selectNode(node);
                     }
@@ -281,7 +279,7 @@ $(function() {
 
     
     // Load the data tree for the graph, setting the root as the initial node
-    var rootId = window.underscore(anchor);
+    var rootId = underscore(anchor);
     var data = buildTree(rootId);
     if (data) {
         // intiialize the graph using JSON-encoded data
@@ -298,7 +296,7 @@ $(function() {
             // if states mismatch, some navigation change took place
             if (lastAnchor != currentAnchor) {
                 lastAnchor = currentAnchor;
-                var pinwheel = window.underscore(window.getAnchor());
+                var pinwheel = underscore(window.getAnchor());
                 if (!rgraph.busy) {
                     rgraph.onClick(pinwheel, rgraph.config.Fx);
                     window.rgraph.setCurrentNode(rgraph.canvas.viz.graph.getNode(pinwheel));
